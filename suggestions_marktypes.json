@@ -1,0 +1,10 @@
+[
+  [["🔴"], "denied", "C0392B"],
+  [["🟢"], "approved", "2ECC71"],
+  [["🏅","🥇"], "mod made", "2ECC71"],
+  [["🚫"], "invalid", "A569BD"],
+  [["⚪"], "no consensus / undecided", "CACFD2"],
+  [["🟥"], "denied :: not possible", "C0392B"],
+  [["❓", "❔"], "planned or already made", "D35400"],
+  [["❗", "❕", "‼"], "censored", "641E16", true]
+]

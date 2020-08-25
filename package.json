@@ -1,0 +1,22 @@
+{
+  "name": "hollowseye",
+  "version": "1.0.0",
+  "description": "The TTB Discord server's personal bot",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teamhollow/hollowseye.git"
+  },
+  "author": "Andante",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/teamhollow/hollowseye/issues"
+  },
+  "homepage": "https://github.com/teamhollow/hollowseye#readme",
+  "dependencies": {
+    "discord.js": "^12.3.1"
+  }
+}
