@@ -12,11 +12,11 @@ module.exports = {
         const preEmbed = await new Discord.MessageEmbed()
             .setColor("#2f3136")
             .setImage(
-                "https://media.discordapp.net/attachments/694148880681664652/706208919529324625/banner-embed.png"
+                "https://media.discordapp.net/attachments/624636870512345088/635601760672546858/banner1hollow.png"
             );
         const infoEmbed = await new Discord.MessageEmbed()
             .setColor("#2f3136")
-            .setTitle("<:welcome:706225401621512192>  ‎**Welcome!**")
+            .setTitle(":wave:  ‎**Welcome!**")
             .setDescription(config.description);
         const rulesEmbed = await new Discord.MessageEmbed()
             .setColor("#2f3136")
@@ -26,22 +26,31 @@ module.exports = {
             );
         const socialsEmbed = await new Discord.MessageEmbed()
             .setColor("#2f3136")
-            .setTitle("<:earth:706239952090038403>  ‎**Social Media**")
+            .setTitle(":earth_americas:  ‎**Social Media**")
             .setDescription(
-                "<:github:706241347404955770> [GitHub](https://github.com/" +
+                ":jigsaw: [GitHub](https://github.com/" +
                 config.github +
                 ")\n" +
                 ":link: [Site](" +
                 config.site +
+                ")\n" +
+                ":bird: [Twitter](https://twitter.com/" +
+                config.twitter +
                 ")"
             );
+        const backportEmbed = await new Discord.MessageEmbed()
+            .setColor("#2f3136")
+            .setTitle(":exclamation:  ‎**Mod Backporting**")
+            .setDescription(
+                "Please don't ask us to backport our mods to a previous version, it will most likely be a no. Backporting takes a lot of time and effort, so taking that time to *downdate* a mod is not worth it."
+            );
 
-        const embeds = [preEmbed, infoEmbed, rulesEmbed, socialsEmbed];
+        const embeds = [preEmbed, infoEmbed, rulesEmbed, socialsEmbed, backportEmbed];
 
         embeds.forEach(async (item) => {
             await message.channel.send(item);
         });
 
-        message.channel.send("https://discord.gg/6TFaAuW");
+        message.channel.send("https://discord.gg/Yqkb9N3");
     },
 };

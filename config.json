@@ -4,10 +4,11 @@
 
     "postMessagesToLog": true,
 
-    "description": "Team Hollow amirite",
+    "description": "We are mod development team dedicated to making mods that are meant to simply be fun and enjoyable while matching Minecraft's visual aesthetic",
     "activity": "The Roofed Canyon",
 
     "site": "https://teamhollow.net",
     "github": "teamhollow",
-    "trello": "teamhollow"
+    "trello": "teamhollow",
+    "twitter": "hollowdev"
 }
