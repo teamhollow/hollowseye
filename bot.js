@@ -127,7 +127,7 @@ client.on("messageReactionAdd", async (reaction, user) => {
 
     if (!message.member.hasPermission("MANAGE_CHANNELS")) return;
 
-    if (message.channel.name = "mod-concepts") {
+    if (message.channel.name == "mod-concepts") {
         if (!(reaction.emoji.name == "👍" || reaction.emoji.name == "👎")) {
             reaction = message.reactions.cache.get(reaction.emoji.name);
             if (reaction != null && reaction != undefined)
