@@ -34,7 +34,7 @@ client.on("ready", () => {
         "] Ready and raring!\n"
     );
 
-    client.user.setActivity("The Roofed Canyon");
+    client.user.setActivity(config.activity);
 });
 
 // event :: on message
