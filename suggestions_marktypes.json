@@ -1,10 +1,14 @@
 [
-  [["🔴"], "denied", "C0392B"],
   [["🟢"], "approved", "2ECC71"],
-  [["🏅","🥇"], "mod made", "2ECC71"],
-  [["🚫"], "invalid", "A569BD"],
+  [["🏅","🥇"], "implemented into a mod", "2ECC71"],
+
+  [["❓", "❔"], "already planned or implemented", "D35400"],
   [["⚪"], "no consensus / undecided", "CACFD2"],
+
+  [["🚫"], "invalid", "A569BD"],
+  [["🔴"], "denied :: poor suggestion", "C0392B"],
   [["🟥"], "denied :: not possible", "C0392B"],
-  [["❓", "❔"], "planned or already made", "D35400"],
+  [["😔"], "denied :: not in the scope of a team hollow mod", "C0392B"],
+
   [["❗", "❕", "‼"], "censored", "641E16", true]
 ]
