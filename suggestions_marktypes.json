@@ -1,6 +1,6 @@
 [
   [["🟢"], "approved", "2ECC71"],
-  [["🏅","🥇"], "implemented into a mod", "2ECC71"],
+  [["🏅","🥇"], "implemented into a mod", "FFD700"],
 
   [["❓", "❔"], "already planned or implemented", "D35400"],
   [["⚪"], "no consensus / undecided", "CACFD2"],
