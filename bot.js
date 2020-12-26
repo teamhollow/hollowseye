@@ -124,7 +124,7 @@ client.on("messageReactionAdd", async (reaction, user) => {
     }
 
     const message = reaction.message;
-
+    if (message.member == null) return;
     if (!message.member.hasPermission("MANAGE_CHANNELS")) return;
 
     if (message.channel.name == "mod-concepts") {
