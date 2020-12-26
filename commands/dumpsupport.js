@@ -11,7 +11,7 @@ module.exports = {
 
         const translateEmbed = await new Discord.MessageEmbed()
             .setColor("#3dd0ad")
-            .setTitle("Translate TTB!")
+            .setTitle("Translate Team Hollow!")
             .setDescription(
                 "https://translate.teamhollow.net"
             )
@@ -20,7 +20,7 @@ module.exports = {
             );
         const githubEmbed = await new Discord.MessageEmbed()
             .setColor("#222222")
-            .setTitle("Contribute to the TTB project(s)!")
+            .setTitle("Contribute to the Team Hollow project(s)!")
             .setDescription(
                 "https://github.com/" + config.github
             )

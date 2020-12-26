@@ -7,7 +7,7 @@ client.login(secrets.token);
 
 module.exports = {
     aliases: ["suggest", "sug", "s"],
-    description: "Suggest a feature or improvement for TTB!",
+    description: "Suggest a feature or improvement for Team Hollow!",
     usage: "<suggestion>",
     async execute(message, args) {
         const feedback_prefix = "<@" + message.author.id + ">, ";

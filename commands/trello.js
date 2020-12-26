@@ -4,7 +4,7 @@ const config = require("../config.json");
 
 module.exports = {
     aliases: ['trello','trel'],
-    description: 'Replies with the TTB Trello',
+    description: 'Replies with the Team Hollow Trello',
     execute(message, args) {
         const logo = "https://teamhollow.net/assets/logo.png";
         const embed = new Discord.MessageEmbed()

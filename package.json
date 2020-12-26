@@ -1,7 +1,7 @@
 {
   "name": "hollowseye",
   "version": "1.0.0",
-  "description": "The TTB Discord server's personal bot",
+  "description": "The Team Hollow Discord server's personal bot",
   "main": "bot.js",
   "scripts": {
     "start": "node bot.js"

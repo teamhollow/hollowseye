@@ -5,7 +5,7 @@ const config = require("../config.json");
 
 module.exports = {
     aliases: ["info", "information", "inf", "i"],
-    description: "Replies with info about TTB, along with downloads!",
+    description: "Replies with info about Team Hollow, along with downloads!",
     async execute(message, args) {
         // const repo = config.github;
         // let archive;
@@ -35,12 +35,12 @@ module.exports = {
         //     const github =
         //         "<https://github.com/" + repo + "/archive/" + archive + ".zip>";
 
-        //     // const ttbLogo = config.site + '/assets/logos/ttb/128x.png';
+        //     // const teamHollowLogo = config.site + '/assets/logos/teamHollow/128x.png';
         //     // const downloadEmbed = new Discord.MessageEmbed()
         //     //	.setColor('#000000')
         //     //	.setURL(config.site)
         //     //	.setDescription(config.description)
-        //     //	.setAuthor('TTB', ttbLogo, config.site)
+        //     //	.setAuthor('Team Hollow', teamHollowLogo, config.site)
         //     //	.addField('Download', '[CurseForge](' + curseforge + ')' + ' | ' + '[GitHub `' + archive + '`](' + github + ')')
         //     //	.setTimestamp();
 

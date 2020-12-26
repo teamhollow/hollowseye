@@ -6,7 +6,7 @@ const Discord = require("discord.js");
 
 module.exports = {
     aliases: ["help"],
-    description: "Lists all the commands available in TTB",
+    description: "Lists all the commands available in Team Hollow",
     usage: "[command]",
     execute(message, args) {
         const commandFiles = fs
